@@ -27,7 +27,7 @@ try {
      Class.forName("com.mysql.cj.jdbc.Driver");
      // Setup the connection with the DB
      connect = DriverManager
-             .getConnection("jdbc:mysql://"+connection_host+ "/new_schema?"+ "user=Jun"+  "&password=sanggyu2383396198");
+             .getConnection("jdbc:mysql://"+connection_host+ "/new_schema?"+ "user=Jun"+  "&password=****");
      
      String qry1a = "select course_name,course_id from course where course_name like ? or course_name like ? " ;
  
